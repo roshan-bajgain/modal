@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(photo.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    margin-top: 15%;
+}
+.modal-overlay{
+display: none;
+}
+.open-modal{
+    display: block;
+}
+.banner{
+    padding: 15px;
+    margin: 15px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    color: red;
+}
+ .btn modal-btn{
+    padding: 50px;
+    margin: 50px;
+    margin-top: 55px;
+
+}
+.modal-overlay{
+    padding: 15px;
+    margin: 15px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    color: red;
+}   
